@@ -17,3 +17,9 @@ public class TowerOfHanoi {
         towerOfHanoi(n, 'A', 'B', 'C');
     }
 }
+// Tower of Hanoi:
+// Move n-1 disks: Source → Helper
+// Move the largest disk: Source → Destination
+// Move n-1 disks: Helper → Destination
+// Base case: n == 1 → move the disk directly
+// Simple trick: n-1 → biggest → n-1
